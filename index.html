@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>תהילים ומשניות – לעילוי נשמת נורית ג׳מילה בת רבקה</title>
+<style>
+:root{--bg:#faf6ee;--card:#fff;--tx:#2b2a26;--mu:#7a7468;--ac:#2f6b5a;--ac2:#e4f1ec;--sel:#c9a24a;--tk:#f3e6bd;--bd:#e3dccb;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#181a19;--card:#232625;--tx:#ece8de;--mu:#a09a8c;--ac:#5fb59c;--ac2:#25382f;--sel:#d8b45a;--tk:#4a4326;--bd:#3a3f3c}}
+:root[data-theme="dark"]{--bg:#181a19;--card:#232625;--tx:#ece8de;--mu:#a09a8c;--ac:#5fb59c;--ac2:#25382f;--sel:#d8b45a;--tk:#4a4326;--bd:#3a3f3c}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:"Frank Ruhl Libre","David","Times New Roman",serif;line-height:1.5}
+main{max-width:640px;margin:0 auto;padding:16px}
+header{text-align:center;padding:10px 0}
+h1{margin:0;font-size:2rem;color:var(--ac)}
+.ded{margin-top:4px;font-size:1.05rem;color:var(--mu)}
+.live{font-size:.85rem;color:var(--mu);margin-top:4px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:14px;margin:12px 0}
+.tabs{display:flex;gap:6px}
+.tabs button{flex:1;padding:10px;border:1px solid var(--bd);background:var(--card);color:var(--tx);border-radius:10px;font:inherit;font-size:1rem;cursor:pointer}
+.tabs button.on{background:var(--ac);color:#fff;border-color:var(--ac)}
+.main button.on{font-size:1.1rem}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.chip{padding:7px 11px;border:1px solid var(--bd);border-radius:20px;background:var(--card);color:var(--tx);font:inherit;font-size:.95rem;cursor:pointer}
+.chip.full{background:var(--ac2);border-color:var(--ac)}
+.chip.cur{border:2px solid var(--sel)}
+.sd{width:100%;font-size:.85rem;color:var(--mu);margin-top:4px}
+.grid{display:grid;grid-template-columns:repeat(6,1fr);gap:6px}
+.c{padding:10px 0;text-align:center;border:1px solid var(--bd);border-radius:9px;background:var(--card);color:var(--tx);font:inherit;font-size:1rem;cursor:pointer}
+.c.sel{background:var(--sel);color:#222;border-color:var(--sel)}
+.c.taken{background:var(--tk);border-color:var(--sel)}
+.c.done{background:var(--ac);color:#fff;border-color:var(--ac)}
+.bar{display:flex;gap:8px;margin-top:10px}
+.btn{flex:1;padding:12px;border:0;border-radius:10px;background:var(--ac);color:#fff;font:inherit;font-size:1.05rem;cursor:pointer}
+.btn.sec{background:var(--card);color:var(--tx);border:1px solid var(--bd)}
+.btn:disabled{opacity:.4}
+input{width:100%;padding:10px;border:1px solid var(--bd);border-radius:10px;background:var(--card);color:var(--tx);font:inherit;margin-bottom:10px}
+.sum{font-size:1.2rem;text-align:center;margin:0 0 8px}
+.pb{height:10px;background:var(--ac2);border-radius:6px;overflow:hidden;margin:6px 0}
+.pb i{display:block;height:100%;background:var(--ac)}
+.bk{padding:10px 0;border-top:1px solid var(--bd)}
+.bk b{display:flex;justify-content:space-between}
+.mis{font-size:.9rem;color:var(--mu)}
+.ok{color:var(--ac)}
+.leg{font-size:.85rem;color:var(--mu);text-align:center;margin-top:8px}
+.toast{position:fixed;left:12px;right:12px;bottom:calc(14px + env(safe-area-inset-bottom,0px));background:var(--ac);color:#fff;padding:14px;border-radius:12px;text-align:center;font-size:1.1rem;display:none}
+.hero{background:linear-gradient(160deg,#41705f,#2f5a4b);color:#fff;border-radius:28px;padding:26px 18px;text-align:center;margin:8px 0 14px}
+.hero h1{color:#fff;font-size:2.1rem}
+.hero .ded{color:#e6efe9;font-size:1.15rem;margin-top:6px}
+.hero .live{color:#cfe0d8}
+.card{border-radius:26px;padding:18px;box-shadow:0 2px 10px rgba(60,50,30,.06)}
+.tabs{background:var(--bg);border-radius:18px;padding:5px}
+.tabs button{border:0;background:transparent;border-radius:14px;padding:12px;color:var(--mu);font-weight:700}
+.tabs button.on{background:var(--card);color:var(--tx);box-shadow:0 1px 4px rgba(0,0,0,.15)}
+.lg{grid-template-columns:repeat(3,1fr);gap:10px}
+.lc{border:2px solid var(--bd);border-radius:22px;background:var(--card);padding:14px 4px;text-align:center;cursor:pointer;color:var(--tx);font:inherit;display:block}
+.lc b{display:block;font-size:2.2rem;line-height:1.1}
+.lc span{display:block;font-size:.95rem;min-height:1.4em}
+.lc em{display:block;font-style:normal;font-size:.85rem;color:var(--mu);margin-top:6px}
+.lc.sel{background:var(--sel);border-color:var(--sel);color:#222}.lc.sel em{color:#222}
+.lc.taken{background:var(--tk);border-color:var(--sel)}
+.lc.done{background:var(--ac);border-color:var(--ac);color:#fff}.lc.done em{color:#fff}
+</style>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+</head>
+<body>
+<main>
+<header class="hero">
+<h1>תהילים ומשניות</h1>
+<div class="ded">לעילוי נשמת נורית ג׳מילה בת רבקה</div>
+<div class="live" id="live">מתחבר…</div>
+</header>
+
+<div class="card">
+<input id="nm" placeholder="השם שלך (לא חובה)" maxlength="30">
+<div class="tabs main" id="modes"></div>
+<div class="tabs" id="tabs" style="margin-top:10px"></div>
+<div class="chips" id="chips"></div>
+<div id="nameslots"></div>
+</div>
+
+<div class="card">
+<div class="grid" id="grid"></div>
+<div class="bar">
+<button class="btn" id="mark">אמרתי ✓</button>
+<button class="btn sec" id="take">אני לוקח/ת</button>
+</div>
+<div class="bar"><button class="btn sec" id="clr">נקה בחירה</button><button class="btn sec" id="myclr">נקה הכל</button></div>
+<div class="bar"><button class="btn" id="mydone">סמן את כל מה שלקחתי כנאמר ✓</button></div>
+<div class="mis" id="selinfo" style="margin-top:8px;text-align:center"></div>
+<div class="leg">ירוק – נאמר · צהוב בהיר – מישהו לוקח · צהוב כהה – הבחירה שלך. לחיצה על פרק תפוס מבטלת אותו.</div>
+</div>
+
+<div class="card" id="prog"></div>
+</main>
+<div class="toast" id="toast"></div>
+<div id="dlg" style="display:none;position:fixed;left:12px;right:12px;bottom:calc(14px + env(safe-area-inset-bottom,0px));background:var(--card);color:var(--tx);border:1px solid var(--bd);border-radius:14px;padding:14px;z-index:5;box-shadow:0 4px 20px rgba(0,0,0,.25)"></div>
+
+<script>
+var BOOKS=[["ספר ליום ראשון",1,29],["ספר ליום שני",30,50],["ספר ליום שלישי",51,72],["ספר ליום רביעי",73,89],["ספר ליום חמישי",90,106],["ספר ליום שישי",107,119],["ספר ליום שבת",120,150]];
+var DAYS=[[1,9],[10,17],[18,22],[23,28],[29,34],[35,38],[39,43],[44,48],[49,54],[55,59],[60,65],[66,68],[69,71],[72,76],[77,78],[79,82],[83,87],[88,89],[90,96],[97,103],[104,105],[106,107],[108,112],[113,118],[119,119],[119,119],[120,134],[135,139],[140,144],[145,150]];
+var SED=[["זרעים","ברכות 9,פאה 8,דמאי 7,כלאים 9,שביעית 10,תרומות 11,מעשרות 5,מעשר שני 5,חלה 4,ערלה 3,ביכורים 4"],
+["מועד","שבת 24,עירובין 10,פסחים 10,שקלים 8,יומא 8,סוכה 5,ביצה 5,ראש השנה 4,תענית 4,מגילה 4,מועד קטן 3,חגיגה 3"],
+["נשים","יבמות 16,כתובות 13,נדרים 11,נזיר 9,סוטה 9,גיטין 9,קידושין 4"],
+["נזיקין","בבא קמא 10,בבא מציעא 10,בבא בתרא 10,סנהדרין 11,מכות 3,שבועות 8,עדיות 8,עבודה זרה 5,אבות 5,הוריות 3"],
+["קדשים","זבחים 14,מנחות 13,חולין 12,בכורות 9,ערכין 9,תמורה 7,כריתות 6,מעילה 6,תמיד 7,מדות 5,קינים 3"],
+["טהרות","כלים 30,אהלות 18,נגעים 14,פרה 12,טהרות 10,מקואות 10,נדה 10,מכשירין 6,זבים 5,טבול יום 4,ידים 4,עוקצין 3"]];
+var TR=[];SED.forEach(function(s,si){s[1].split(",").forEach(function(x){var i=x.lastIndexOf(" ");TR.push({s:si,n:x.slice(0,i),c:+x.slice(i+1)})})});
+var U=["","א","ב","ג","ד","ה","ו","ז","ח","ט"],T=["","י","כ","ל","מ","נ","ס","ע","פ","צ"],H=["","ק"];
+function heb(n){if(n==15)return"טו";if(n==16)return"טז";var s=H[Math.floor(n/100)]+T[Math.floor(n%100/10)]+U[n%10];if(s.length==1)return s+"׳";return s.slice(0,-1)+"״"+s.slice(-1)}
+function $(i){return document.getElementById(i)}
+function rng(a,b){var r=[];for(var i=a;i<=b;i++)r.push(i);return r}
+function ranges(a){var o=[],i=0;while(i<a.length){var j=i;while(j+1<a.length&&a[j+1]==a[j]+1)j++;o.push(j>i?heb(a[i])+"–"+heb(a[j]):heb(a[i]));i=j+1}return o.join(", ")}
+function kT(n){return"t"+n}
+function kM(i,c){return"m"+i+"_"+c}
+function trKeys(i){return rng(1,TR[i].c).map(function(c){return kM(i,c)})}
+
+var db=null,st={},sel={},mode="t",tab="ch",tr=null,live=false,first=true,lastT=0,lastM=0;
+var LS="tehillim-shared-v2";var mine={};try{mine=JSON.parse(localStorage.getItem("tehillim-mine"))||{}}catch(e){}function saveMine(){try{localStorage.setItem("tehillim-mine",JSON.stringify(mine))}catch(e){}}
+try{var o=localStorage.getItem(LS);if(o)st=JSON.parse(o)||{}}catch(e){}
+try{$("nm").value=localStorage.getItem("tehillim-name")||""}catch(e){}
+$("nm").oninput=function(){try{localStorage.setItem("tehillim-name",$("nm").value)}catch(e){}};
+function saveLocal(){if(db)return;try{localStorage.setItem(LS,JSON.stringify(st))}catch(e){}}
+function isMine(k){var s=st[k];if(!s)return false;if(mine[k])return true;var n=$("nm").value.trim();return !!n&&s.name===n}
+function setLive(t){$("live").textContent=t}
+
+function write(key,s,x){var v={s:s,name:$("nm").value.trim(),at:Date.now()};if(x)for(var q in x)v[q]=x[q];mine[key]=1;saveMine();
+ if(db){db.collection("said").doc(key).set(v).catch(function(){toast("השמירה נכשלה – ייתכן שאין הרשאת עריכה")})}else{st[key]=v}}
+function del(key){delete mine[key];saveMine();if(db){db.collection("said").doc(key).delete().catch(function(){toast("המחיקה נכשלה")})}else{delete st[key]}}
+function act(s){Object.keys(sel).forEach(function(k){write(k,s)});sel={};saveLocal();render()}
+function pick(keys){var all=keys.every(function(k){return sel[k]||st[k]});keys.forEach(function(k){if(st[k])return;if(all)delete sel[k];else sel[k]=1});render()}
+function isDone(k){return st[k]&&st[k].s=="done"}
+
+function mkChip(c,txt,keys,cur){var b=document.createElement("button");b.className="chip"+(keys.every(isDone)?" full":"")+(cur?" cur":"");b.textContent=txt;b.onclick=function(){if(mode=="m"){tr=cur===undefined?tr:tr}return};return b}
+function drawTop(){
+ var m=$("modes");m.innerHTML="";[["t","תהילים"],["m","משניות"]].forEach(function(x){var b=document.createElement("button");b.textContent=x[1];if(mode==x[0])b.className="on";b.onclick=function(){mode=x[0];render()};m.appendChild(b)});
+ var t=$("tabs"),c=$("chips");t.innerHTML="";c.innerHTML="";
+ if(mode=="t"){
+  [["ch","פרקים"],["books","לפי ספרים"],["q","קיט – השם"]].forEach(function(x){var b=document.createElement("button");b.textContent=x[1];if(tab==x[0])b.className="on";b.onclick=function(){tab=x[0];render()};t.appendChild(b)});
+  t.style.display="flex";
+  function chip(txt,list){var keys=list.map(kT),b=document.createElement("button");b.className="chip"+(keys.every(isDone)?" full":"");b.textContent=txt;b.onclick=function(){pick(keys)};c.appendChild(b)}
+  if(tab=="days")DAYS.forEach(function(d,i){chip("יום "+(i==29?"ל":heb(i+1)),rng(d[0],d[1]))});
+  else if(tab=="books")BOOKS.forEach(function(b){chip(b[0]+" ("+b[1]+"–"+b[2]+")",rng(b[1],b[2]))});
+  else if(tab=="q"){var nl=function(w){return w.replace(/ /g,"").split("").map(function(l){return "q"+LET.indexOf(l)})};[["אותיות השם: נורית גמילה בת רבקה","נורית גמילה בת רבקה"],["כל תהילים קיט",LET]].forEach(function(x){var keys=nl(x[1]).filter(function(v,i,a){return a.indexOf(v)==i}),b=document.createElement("button");b.className="chip"+(keys.every(isDone)?" full":"");b.textContent=x[0];b.onclick=function(){pick(keys)};c.appendChild(b)});var nt=document.createElement("div");nt.className="sd";nt.textContent="תהילים קיט: כל אות = 8 פסוקים (א׳ 1–8, ב׳ 9–16 וכן הלאה).";c.appendChild(nt)}
+  else{c.style.color="var(--mu)";c.textContent="לחצו על מספרי הפרקים למטה."}
+ }else{
+  t.style.display="none";c.style.color="";
+  SED.forEach(function(s,si){var h=document.createElement("div");h.className="sd";h.textContent="סדר "+s[0];c.appendChild(h);
+   TR.forEach(function(x,i){if(x.s!=si)return;var b=document.createElement("button");b.className="chip"+(trKeys(i).every(isDone)?" full":"")+(tr===i?" cur":"");b.textContent=x.n;b.onclick=function(){tr=i;render()};c.appendChild(b)})});
+  if(tr!==null){var a=document.createElement("button");a.className="chip";a.textContent="★ בחר את כל מסכת "+TR[tr].n;a.onclick=function(){pick(trKeys(tr))};c.insertBefore(a,c.firstChild)}
+ }}
+function drawGrid(){var g=$("grid");g.innerHTML="";var items=[];
+ if(mode=="t"&&tab=="q")LET.split("").forEach(function(l,i){items.push(["q"+i,l])});
+ else if(mode=="t")for(var n=1;n<=150;n++)items.push([kT(n),heb(n)]);
+ else if(tr!==null)for(var c=1;c<=TR[tr].c;c++)items.push([kM(tr,c),heb(c)]);
+ else{g.style.display="block";g.textContent="בחרו מסכת מהרשימה למעלה.";g.style.color="var(--mu)"}
+ if(items.length){g.style.display="grid";g.style.color=""}
+ var isq=mode=="t"&&tab=="q";g.className=isq?"grid lg":"grid";items.forEach(function(it){var k=it[0],b=document.createElement("button"),s=st[k];var stc=s?(s.s=="done"?" done":" taken"):sel[k]?" sel":"";if(isq){b.className="lc"+stc;var qi=+k.slice(1);var a=document.createElement("b");a.textContent=it[1];var r=document.createElement("span");r.textContent="פסוקים "+(qi*8+1)+"–"+(qi*8+8);var e=document.createElement("em");e.textContent=s?(s.s=="done"?"נאמר ✓":"נלקח"):sel[k]?"נבחר":"פנוי";b.appendChild(a);b.appendChild(r);b.appendChild(e)}else{b.className="c"+stc;b.textContent=it[1]}if(s&&s.name)b.title=s.name;
+  b.onclick=function(){if(s){if(s.s=="taken"&&isMine(k))dlg("לסמן כנאמר?",false,function(){write(k,"done");saveLocal();render()});else dlg("לבטל את הסימון?"+(s.name?" ("+s.name+")":""),false,function(){del(k);saveLocal();render()})}else{if(sel[k])delete sel[k];else sel[k]=1;render()}};g.appendChild(b)});
+ var n=Object.keys(sel).length;$("selinfo").textContent=n?"נבחרו "+n+" פרקים":"";$("mark").disabled=$("take").disabled=!n}
+function bar(d,t){return'<div class="pb"><i style="width:'+Math.round(d/t*100)+'%"></i></div>'}
+function drawProg(){var h="",fT=0,fM=0;
+ if(mode=="t"){var tot=0,tk=0;for(var n=1;n<=150;n++){if(isDone(kT(n)))tot++;else if(st[kT(n)])tk++}
+  var body="";BOOKS.forEach(function(b){var l=rng(b[1],b[2]),d=l.filter(function(n){return isDone(kT(n))}),tkn=l.filter(function(n){return st[kT(n)]&&!isDone(kT(n))}),free=l.filter(function(n){return !st[kT(n)]});
+   if(d.length==l.length)fT++;
+   body+='<div class="bk"><b><span>'+b[0]+'</span><span class="'+(d.length==l.length?"ok":"")+'">'+(d.length==l.length?"✓ נאמר במלואו":d.length+"/"+l.length)+'</span></b>'+bar(d.length,l.length)+(d.length<l.length?'<div class="mis">'+(free.length?'חסר (פנוי): '+ranges(free):'הכול נלקח')+(tkn.length?'<br>נלקחו ועוד לא נאמרו: '+ranges(tkn):'')+'</div>':'')+'</div>'});
+  var rc=(st.meta_rounds&&st.meta_rounds.count)||0;h='<p class="sum" style="margin-bottom:4px">'+(rc?'📖 ספרי תהילים שהושלמו: <b>'+rc+'</b><br>':'')+'סבב נוכחי: ספר תהילים מס׳ '+(rc+1)+'</p>'+(tot==150?'<button class="btn" id="newround" style="width:100%;margin:8px 0">הספר הושלם ✓ התחל סבב חדש</button>':'')+'<p class="sum"><b>'+fT+'</b> מתוך 7 ספרים נאמרו<br><small>'+tot+' מתוך 150 פרקים נאמרו · '+tk+' נלקחו<br>קיט לפי אותיות: '+rng(0,21).filter(function(i){return isDone("q"+i)}).length+' מתוך 22</small></p>'+body;
+  for(var j=0;j<TR.length;j++)if(trKeys(j).every(isDone))fM++;
+ }else{var tot=0,total=0;
+  var body="";SED.forEach(function(s,si){var d=0,t=0,full=0,cnt=0;TR.forEach(function(x,i){if(x.s!=si)return;cnt++;var k=trKeys(i),dd=k.filter(isDone).length;d+=dd;t+=k.length;if(dd==k.length)full++});
+   tot+=d;total+=t;fM+=full;
+   body+='<div class="bk"><b><span>סדר '+s[0]+'</span><span class="'+(d==t?"ok":"")+'">מסכתות: '+full+'/'+cnt+'</span></b>'+bar(d,t)+'<div class="mis">'+d+' מתוך '+t+' פרקים</div></div>'});
+  if(tr!==null){var k=trKeys(tr),free=rng(1,TR[tr].c).filter(function(c){return !st[kM(tr,c)]});
+   body='<div class="bk"><b><span>מסכת '+TR[tr].n+'</span><span>'+k.filter(isDone).length+'/'+k.length+'</span></b>'+bar(k.filter(isDone).length,k.length)+'<div class="mis">'+(free.length?'חסר (פנוי): פרקים '+ranges(free):'כל הפרקים נאמרו או נלקחו')+'</div></div>'+body}
+  h='<p class="sum"><b>'+fM+'</b> מתוך '+TR.length+' מסכתות נאמרו<br><small>'+tot+' מתוך '+total+' פרקי משנה</small></p>'+body;
+  for(var n=1;n<=150;n++)if(false)fT++;
+  fT=0;BOOKS.forEach(function(b){if(rng(b[1],b[2]).every(function(n){return isDone(kT(n))}))fT++})}
+ $("prog").innerHTML=h;var nr=$("newround");if(nr)nr.onclick=newRound;
+ if(!first){if(fT>lastT)toast(fT==7?"🎉 כל ספר התהילים נאמר! יהי זכרה ברוך":"✓ הושלם ספר תהילים! נאמרו "+fT+" מתוך 7");else if(fM>lastM)toast("✓ הושלמה מסכת! "+fM+" מתוך "+TR.length)}
+ lastT=fT;lastM=fM}
+var LET="אבגדהוזחטיכלמנסעפצקרשת";
+function dlg(msg,inp,cb){var d=$("dlg");d.innerHTML="";var p=document.createElement("div");p.style.marginBottom="8px";p.textContent=msg;d.appendChild(p);var i;if(inp){i=document.createElement("input");i.maxLength=40;d.appendChild(i)}var r=document.createElement("div");r.className="bar";var y=document.createElement("button");y.className="btn";y.textContent="אישור";y.onclick=function(){d.style.display="none";cb(i?i.value.trim():"")};var n=document.createElement("button");n.className="btn sec";n.textContent="ביטול";n.onclick=function(){d.style.display="none"};r.appendChild(y);r.appendChild(n);d.appendChild(r);d.style.display="block"}
+function drawSlots(){var d=$("nameslots");d.innerHTML="";if(mode!="m")return;
+ var t=document.createElement("div");t.className="sd";t.style.marginTop="12px";t.textContent="משניות לפי אותיות השם – לכל אות משנה (או פרק) שמתחילה בה. לחצו על אות ורשמו מה למדתם.";d.appendChild(t);
+ [["נורית גמילה","n"],["נשמה","s"]].forEach(function(g){var h=document.createElement("div");h.className="sd";h.textContent=g[0]=="נשמה"?"אותיות נשמה":"השם: נורית ג׳מילה";d.appendChild(h);var w=document.createElement("div");w.className="chips";w.style.marginTop="4px";
+  g[0].replace(" ","").split("").forEach(function(l,i){var k=g[1]+i,s=st[k],b=document.createElement("button");b.className="chip"+(s?" full":"");b.textContent=l+(s?" ✓"+(s.ref?" "+s.ref:""):"");
+   b.onclick=function(){if(s)dlg("לבטל את הסימון של האות "+l+"?",false,function(){del(k);saveLocal();render()});else dlg("איזו משנה למדתם באות "+l+"? (למשל: מקוואות ז א)",true,function(v){write(k,"done",{ref:v});saveLocal();render()})};w.appendChild(b)});d.appendChild(w)})}
+function newRound(){dlg("להתחיל סבב חדש של תהילים? ההתקדמות תתאפס לכולם, והספר שהושלם יירשם.",false,function(){var c=((st.meta_rounds&&st.meta_rounds.count)||0)+1;var ks=Object.keys(st).filter(function(k){return k.charAt(0)=="t"||k.charAt(0)=="q"});
+ if(db){db.collection("said").doc("meta_rounds").set({count:c,at:Date.now()});ks.forEach(function(k){db.collection("said").doc(k).delete()})}else{st.meta_rounds={count:c,at:Date.now()};ks.forEach(function(k){delete st[k]})}
+ ks.forEach(function(k){delete mine[k]});saveMine();saveLocal();render();toast("🎉 מתחילים סבב חדש – ספר תהילים מס׳ "+c)})}
+var SUG={"א":"ברכות פרק ה׳","ב":"תענית פרק ד׳","ה":"ברכות פרק ב׳","ו":"מועד קטן פרק ג׳","ל":"סוכה פרק ד׳","מ":"ברכות פרק א׳","נ":"שבת פרק כ״א","פ":"חלה פרק ב׳","ר":"שבת פרק י״ג","ש":"שבת פרק כ״ג"};
+function drawSlots2(){var d=$("nameslots");d.innerHTML="";if(mode!="m")return;
+ var t=document.createElement("div");t.className="mis";t.style.margin="14px 0 8px";t.textContent="משניות לפי אותיות השם – פרק לכל אות, ובסוף מקוואות פרק ז׳. לחצו על כרטיס לבחירה, ואז על ״אמרתי״ או ״אני לוקח״.";d.appendChild(t);
+ var g=document.createElement("div");g.className="grid lg";var list=[];
+ "נורית גמילה".replace(" ","").split("").forEach(function(l,i){list.push(["n"+i,l])});"נשמה".split("").forEach(function(l,i){list.push(["s"+i,l])});list.push(["x0","✦"]);
+ list.forEach(function(it){var k=it[0],l=it[1],s=st[k],ref=k=="x0"?"מקוואות פרק ז׳":(s&&s.ref)||SUG[l]||"",b=document.createElement("button");
+  b.className="lc"+(s?(s.s=="done"?" done":" taken"):sel[k]?" sel":"");
+  var a=document.createElement("b");a.textContent=l;var r=document.createElement("span");r.textContent=ref||"בחרו משנה";var e=document.createElement("em");e.textContent=s?(s.s=="done"?"נאמר ✓":"נלקח"):sel[k]?"נבחר":"פנוי";
+  b.appendChild(a);b.appendChild(r);b.appendChild(e);if(s&&s.name)b.title=s.name;
+  b.onclick=function(){if(s){if(s.s=="taken"&&isMine(k))dlg("לסמן כנאמר?",false,function(){write(k,"done",s.ref?{ref:s.ref}:null);saveLocal();render()});else dlg("לבטל את הסימון?"+(s.name?" ("+s.name+")":""),false,function(){del(k);saveLocal();render()})}
+   else if(!ref){dlg("איזו משנה למדתם באות "+l+"? (למשל: ברכות ה׳)",true,function(v){if(v){write(k,"done",{ref:v});saveLocal();render()}})}
+   else{if(sel[k])delete sel[k];else sel[k]=1;render()}};g.appendChild(b)});
+ d.appendChild(g)}
+function render(){drawTop();drawSlots2();drawGrid();drawProg()}
+function toast(m){var t=$("toast");t.textContent=m;t.style.display="block";setTimeout(function(){t.style.display="none"},4000)}
+$("mark").onclick=function(){act("done")};$("take").onclick=function(){act("taken")};$("clr").onclick=function(){sel={};render()};
+$("mydone").onclick=function(){var ks=Object.keys(st).filter(function(k){return st[k].s=="taken"&&isMine(k)});if(!ks.length){var all=Object.keys(st).filter(function(k){return st[k].s=="taken"&&k.charAt(0)==(mode=="t"?"t":"m")});if(!all.length){dlg("אין פרקים צהובים שנלקחו שאפשר לסמן.",false,function(){});return}dlg("לא זיהיתי פרקים שלקחת מהמכשיר הזה (אולי נלקחו לפני העדכון). לסמן כנאמרו את כל "+all.length+" הצהובים, גם של אחרים?",false,function(){all.forEach(function(k){write(k,"done")});saveLocal();render()});return}dlg("לסמן "+ks.length+" פרקים שלקחת כנאמרו?",false,function(){ks.forEach(function(k){write(k,"done",st[k].ref?{ref:st[k].ref}:null)});saveLocal();render()})};
+$("myclr").onclick=function(){var ks=Object.keys(st).filter(isMine);sel={};if(!ks.length){render();return}dlg("לבטל את כל "+ks.length+" הסימונים שלך (לקחתי ואמרתי)? הסימונים של אחרים לא ייפגעו.",false,function(){ks.forEach(del);saveLocal();render()})};
+
+// compute lastT/lastM silently before first snapshot
+render();first=false;
+var timer=setTimeout(function(){if(!live)setLive("מצב מקומי – ההתקדמות נשמרת רק במכשיר הזה")},10000);
+var FIREBASE_CONFIG={
+ apiKey:"AIzaSyA-AtSfI78oS2FEEGCufErYm78FrV4Uj50",
+ authDomain:"zikarondodanurit.firebaseapp.com",
+ projectId:"zikarondodanurit",
+ appId:"1:1052255397329:web:b0cd48414ae8d33bc3acf0"
+};
+function getDb(){try{if(!window.firebase||!FIREBASE_CONFIG.projectId)return Promise.resolve(null);firebase.initializeApp(FIREBASE_CONFIG);return Promise.resolve(firebase.firestore())}catch(e){return Promise.resolve(null)}}
+getDb().then(function(d){
+ if(!d){setLive("מצב מקומי – ההתקדמות נשמרת רק במכשיר הזה");return}
+ db=d;st={};var firstSnap=true;
+ d.collection("said").onSnapshot(function(snap){st={};snap.docs.forEach(function(x){st[x.id]=x.data()});live=true;clearTimeout(timer);
+  setLive("🟢 לוח משותף – כולם רואים את אותה התקדמות");
+  if(firstSnap){firstSnap=false;first=true}else first=false;render();first=false},
+  function(){setLive("אין גישה ללוח המשותף – נסו לרענן את הדף")})
+});
+</script>
+</body>
+</html>
